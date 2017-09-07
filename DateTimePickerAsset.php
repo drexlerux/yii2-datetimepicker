@@ -1,6 +1,6 @@
 <?php
 
-namespace drexlerux\ui;
+namespace drexlerux\datetimepicker;
 use yii\web\AssetBundle;
 /**
  * LcsWitch AssetBundle class for call lc switch bower-asset
