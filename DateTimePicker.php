@@ -41,7 +41,7 @@ class DateTimePicker extends InputWidget
         $this->registerScript();
         $input = Html::activeTextInput($this->model, $this->attribute, $this->options);
         $box = "<div id=\"box_$this->inputId\"></div>";
-        echo $input . $box;
+        echo "<div class=\"flat-datetimepicker\">$input $box</div>";
     }
 
     public function registerScript(){
@@ -53,6 +53,13 @@ class DateTimePicker extends InputWidget
             });
         ";
 
+        $css = "
+            .flat-datetimepicker input[type=\"text\"]{
+                background-color: #FFFFFF;
+                cursor: pointer;
+            }
+        ";
         $view->registerJs($js);
+        $view->registerCss($css, [], 'flat-datetimepicker');
     }
 }
