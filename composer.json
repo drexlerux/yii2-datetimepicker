@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "drexlerux\\datetimepicker\\": ""
+            "drexlerux\\ui\\": ""
         }
     },
     "repositories":[

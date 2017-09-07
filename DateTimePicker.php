@@ -1,6 +1,6 @@
 <?php
 
-namespace drexlerux\datetimepicker;
+namespace drexlerux\ui;
 use Yii;
 use yii\bootstrap\Html;
 use yii\helpers\Json;
