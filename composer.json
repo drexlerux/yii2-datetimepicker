@@ -2,6 +2,8 @@
     "name": "drexlerux/yii2-datetimepicker",
     "description": "Yii2 Datetime Picker widget for show on forms views",
     "type": "yii2-extension",
+    "minimum-stability" : "dev",
+    "prefer-stable": true,
     "keywords": ["yii2","extension"," widget"],
     "license": "MIT",
     "authors": [
