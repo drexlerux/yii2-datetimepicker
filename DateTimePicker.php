@@ -8,7 +8,7 @@ use yii\widgets\InputWidget;
 /**
  * This is just an example.
  */
-class DatetimePicker extends \yii\base\Widget
+class DateTimePicker extends InputWidget
 {
     public $options = [];
     public $widgetOptions = [];
